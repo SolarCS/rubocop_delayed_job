@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rubocop_respond_with/version'
+require 'rubocop_delayed_job/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "rubocop_respond_with"
-  spec.version       = RubocopRespondWith::VERSION
+  spec.name          = "rubocop_delayed_job"
+  spec.version       = RubocopDelayedJob::VERSION
   spec.authors       = ["Max Jacobson"]
   spec.email         = ["max@hardscrabble.net"]
 
-  spec.summary       = %q{RuboCop extension which forbids respond_with}
-  spec.description   = %q{Sometimes it causes some trouble. Take that as read. This will let you know when you slip, and include respond_with.}
-  spec.homepage      = "https://github.com/SolarCS/rubocop_respond_with"
+  spec.summary       = %q{RuboCop extension which adds some delayed job guidelines}
+  spec.description   = %q{Checks usage of delayed job and offers some guidelines}
+  spec.homepage      = "https://github.com/SolarCS/rubocop_delayed_job"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

@@ -1,13 +1,13 @@
-# rubocop_respond_with
+# rubocop_delayed_job
 
-This gem extends rubocop to catch respond_with.
+This gem extends rubocop to catch delayed_job.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```
-gem 'rubocop_respond_with'
+gem 'rubocop_delayed_job'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ $ bundle
 In .rubocop.yml add this line:
 
 ```
-require: "rubocop_respond_with"
+require: "rubocop_delayed_job"
 ```
 
 ## Development
@@ -39,7 +39,7 @@ git commits and tags, and push the `.gem` file to
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-https://github.com/SolarCS/rubocop_respond_with. This project is
+https://github.com/SolarCS/rubocop_delayed_job. This project is
 intended to be a safe, welcoming space for collaboration, and contributors are
 expected to adhere to the [Contributor
 Covenant](http://contributor-covenant.org) code of conduct.
